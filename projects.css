@@ -1,0 +1,130 @@
+body{
+    margin:0px;
+}
+#h1l{
+    margin-left: 600px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:80px;
+    background-color: #ffffff;
+    
+}
+#one{
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 30 px;
+    text-transform: none;
+}
+.navbar{
+    min-width: 500px;
+    display:flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+#three{
+    
+    background-color:#e7e6eb;
+    height:1550px;
+    border-bottom: 1px solid  #b6b1b1;
+}
+#ecgmain{
+    margin-left: 350px;
+    margin-top: 50px;
+    display: flex;
+    height:380px;
+    width:650px;
+    border:2px solid black;
+}
+#ECG{
+    height:250px;
+    width: 600px;
+
+}
+.bu1{
+    display: grid;
+    place-items: center;
+    height:380px;
+    width: 400px;
+    border-left: 2px solid black;
+   
+}
+#Homemain{
+    margin-left: 350px;
+    margin-top: 50px;
+    display: flex;
+    
+    border:2px solid black;
+    height:330px;
+    width:650px;
+}
+#home{
+   height:250px;
+   width:400px;
+}
+#bu2{
+    height:330px;
+    width: 396px;
+    display: grid;
+    place-items: center;
+    border-left: 2px solid black;
+
+}
+#myntramain{
+    margin-left: 350px;
+    margin-top: 50px;
+    display: flex;
+    border:2px solid black;
+    height:250px;
+    width:650px;
+}
+#bu3{
+    height:250px;
+    width: 400px;
+    border-left: 2px solid black;
+    display: grid;
+    place-items: center;
+}
+#portfoliomain{
+    margin-left: 350px;
+    margin-top: 50px;
+    display: flex;
+    border:2px solid black;
+    height:250px;
+    width:640px;
+}
+#bu4{
+    height:250px;
+    width: 400px;
+    border-left: 2px solid black;
+    display: grid;
+    place-items: center;
+}
+#footercontainer{
+   
+    height:88px;
+    background-color: #d3d9eb;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar a{
+    text-decoration: none;
+    padding: 28px 0;
+    color: black;
+    
+}
+.navbar a:hover {
+    border-bottom: 4px solid #b8d0e3;
+    border-top: 4px solid #b8d0e3;
+}
+#one a{
+    text-decoration: none;
+    color:black;
+}
+#git{
+    text-decoration: none;
+    color:black;
+}

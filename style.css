@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+    font:Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:80px;
+    background-color: #ffffff;
+    
+}
+#three{
+    
+    background-color:#e7e6eb;
+    border-bottom: 1px solid #b6b1b1;
+}
+.navbar{
+    min-width: 500px;
+    display:flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    
+}
+#one{
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 30 px;
+    
+}
+#line {
+    margin-top: 100px;
+    margin-left: 200px;
+    font-style: italic;
+}
+#h2i {
+    margin-left: 200px;
+}
+#paraid{
+    border-top: 10px;
+    height: 500px;
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    border-bottom: 1px solid #b6b1b1;
+}
+
+#fd{
+    
+    height:100px;
+    width:500px;
+    
+}
+#photo{
+    height: 350px;
+    width:  400px;
+
+    background-image: url("graduation.jpeg");
+    background-size: cover;
+    border-radius: 20%;
+    border: 2px solid black;
+}
+#footercontainer{
+    height:88px;
+    background-color: #d3d9eb;
+    display: flex;
+    justify-content: space-evenly;
+}
+#contact{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar a{
+    text-decoration: none;
+    padding: 28px 0;
+    color: black;
+}
+.navbar a:hover {
+    border-bottom: 4px solid #b8d0e3;
+    border-top: 4px solid #b8d0e3;
+}
+#one a{
+    text-decoration: none;
+    color:black;
+}
+#git{
+    text-decoration: none;
+    color:black;
+}

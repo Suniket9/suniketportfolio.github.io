@@ -1,0 +1,93 @@
+body{
+    margin:0px;
+}
+#one{
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 30 px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:80px;
+    background-color: #ffffff;
+}
+.navbar{
+    min-width: 500px;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-transform: none;
+}
+#one{
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 30 px;
+    color:black;
+}
+#three{
+    
+    background-color:#e7e6eb;
+    height:1027px;
+    margin-bottom: 10px;
+    
+}
+#line {
+    margin-top: 20px;
+    margin-left:132px;
+}
+#h2i {
+    margin-top: 0px;
+    margin-left: 132px;
+}
+#apara{
+    
+    width:700px;
+    margin-top: 10px;
+    
+}
+#paraid{
+    
+    border-top: 10px;
+    height: 900px;
+    display:flex;
+    justify-content: space-evenly;
+   
+    border-bottom: 1px solid  #b6b1b1;
+   
+}
+
+#footercontainer{
+    height:88px;
+    background-color: #d3d9eb;
+    display: flex;
+    justify-content: space-evenly;
+}
+#photo{
+    height: 400px;
+    width:  400px;
+    background-image: url("Suniketpradhan.jpeg");
+    background-size: cover;
+    border-radius: 20%;
+    border: 2px solid black;
+}
+.navbar a{
+    text-decoration: none;
+    padding: 28px 0;
+    color: black;
+}
+.navbar a:hover {
+    border-bottom: 4px solid #b8d0e3;
+    border-top: 4px solid #b8d0e3;
+}
+#one a{
+    text-decoration: none;
+    color:black;
+}
+#git{
+    text-decoration: none;
+    color:black;
+}
