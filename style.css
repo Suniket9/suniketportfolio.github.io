@@ -18,10 +18,12 @@ header {
     border-bottom: 1px solid #b6b1b1;
 }
 .navbar{
-    min-width: 500px;
+    width: 500px;
     display:flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     text-decoration: none;
+    list-style: none;
     
 }
 #one{
@@ -45,7 +47,7 @@ header {
     display:flex;
     justify-content: space-evenly;
     margin-top: 50px;
-    border-bottom: 1px solid #b6b1b1;
+    
 }
 
 #fd{
@@ -89,3 +91,273 @@ header {
     text-decoration: none;
     color:black;
 }
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 20px;;
+    }
+    
+    #one {
+      font-size: 25px;
+      margin-left: 20px;
+    }
+    
+    .navbar li {
+      margin-right: 15px;
+    }
+  }
+  @media only screen and (max-width: 767px) and (min-width: 480px) {
+    header {
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+      padding: 20px;
+    }
+    
+    #one {
+      font-size: 18px;
+      margin-left: 0;
+      text-align: center;
+    }
+    
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .navbar li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+    
+    .navbar a {
+      font-size: 16px;
+    }
+  }
+  @media only screen and (max-width: 479px) and (min-width: 320px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 20px;
+    }
+    
+    #one {
+      font-size: 16px;
+    }
+    
+    .navbar li {
+      margin-bottom: 5px;
+    }
+    
+    .navbar a {
+      font-size: 14px;
+    }
+  }
+  @media only screen and (max-width: 319px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 20px;
+    }
+    
+    #one {
+      font-size: 14px;
+    }
+    
+    .navbar li {
+      margin-bottom: 5px;
+    }
+    
+    .navbar a {
+      font-size: 12px;
+    }
+  }
+ 
+  /* Tablet (768px - 991px) */
+  
+  @media only screen and (max-width: 991px) and (min-width: 768px) {
+    #three {
+      padding: 30px;
+      height:850px;
+    }
+    
+    #line {
+      font-size: 22px;
+    }
+    
+    #h2i {
+      font-size: 20px;
+    }
+    
+    #paraid {
+      padding: 15px;
+    
+    }
+    
+    #fd, #photo {
+      width: 85%;
+    }
+   
+  }
+  
+  /* Mobile (480px - 767px) */
+  
+  @media only screen and (max-width: 767px) and (min-width: 480px) {
+    #three {
+      padding: 20px;
+      height:1200px;
+    }
+    
+    #line {
+      font-size: 20px;
+    }
+    
+    #h2i {
+      font-size: 18px;
+    }
+    
+    #paraid {
+      padding: 10px;
+    }
+    
+    #fd, #photo {
+      width: 90%;
+    }
+    #para{
+        font-size: 15px;
+    }
+  }
+  
+  /* Small Mobile (320px - 479px) */
+  
+  @media only screen and (max-width: 479px) and (min-width: 320px) {
+    #three {
+      padding: 15px;
+      height:1800px;
+    }
+    
+    #line {
+      margin-left: 10px;
+      font-size: 15px;
+    }
+    
+    #h2i {
+    margin-left: 10px;
+    font-size: 15px;
+    }
+    
+    #paraid {
+      padding: 5px;
+    }
+    
+    #fd, #photo {
+      width: 95%;
+    }
+    #para{
+        font-size: 15px;
+    }
+  }
+  
+  /* Extra Small Mobile (less than 320px) */
+  
+  @media only screen and (max-width: 319px) {
+    #three {
+      padding: 10px;
+      height:3000px;
+    }
+    #para{
+        font-size: 15px;
+    }
+    
+    #line {
+      font-size: 16px;
+    }
+    
+    #h2i {
+      font-size: 14px;
+    }
+    
+    #paraid {
+      padding: 5px;
+    }
+    
+    #fd, #photo {
+      width: 100%;
+    }
+  }
+  /* Tablet (768px - 991px) */
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    #footercontainer {
+      height: auto;
+      flex-direction: column;
+      padding: 20px;
+    }
+    
+    #contact, #email, #linkdin, #github {
+      margin: 10px 0;
+    }
+  }
+  
+  /* Mobile (480px - 767px) */
+  
+  @media only screen and (max-width: 767px) and (min-width: 480px) {
+    #footercontainer {
+      height: auto;
+      flex-direction: column;
+      padding: 15px;
+    }
+    
+    #contact, #email, #linkdin, #github {
+      margin: 5px 0;
+      font-size: 14px;
+    }
+    
+    #git {
+      font-size: 14px;
+    }
+  }
+  
+  /* Small Mobile (320px - 479px) */
+  
+  @media only screen and (max-width: 479px) and (min-width: 320px) {
+    #footercontainer {
+      height: auto;
+      flex-direction: column;
+      padding: 10px;
+    }
+    
+    #contact, #email, #linkdin, #github {
+      margin: 3px 0;
+      font-size: 12px;
+    }
+    
+    #git {
+      font-size: 12px;
+    }
+  }
+  
+  /* Extra Small Mobile (less than 320px) */
+  
+  @media only screen and (max-width: 319px) {
+    #footercontainer {
+      height: auto;
+      flex-direction: column;
+      padding: 5px;
+    }
+    
+    #contact, #email, #linkdin, #github {
+      margin: 2px 0;
+      font-size: 10px;
+    }
+    
+    #git {
+      font-size: 10px;
+    }
+  }
+  
+    
