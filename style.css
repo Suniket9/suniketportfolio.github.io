@@ -91,6 +91,7 @@ header {
     text-decoration: none;
     color:black;
 }
+/*For Tablet*/
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
     header {
         flex-direction: column;
@@ -108,6 +109,7 @@ header {
       margin-right: 15px;
     }
   }
+  /* Mobile (480px - 767px) */
   @media only screen and (max-width: 767px) and (min-width: 480px) {
     header {
       flex-direction: column;
@@ -136,16 +138,19 @@ header {
       font-size: 16px;
     }
   }
+   /* Small Mobile (320px - 479px) */
   @media only screen and (max-width: 479px) and (min-width: 320px) {
     header {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         height: auto;
-        padding: 20px;
+       
     }
     
     #one {
-      font-size: 16px;
+      font-size: 10px;
+      font-size: 5px;
+      margin-left: 0px;
     }
     
     .navbar li {
@@ -153,19 +158,20 @@ header {
     }
     
     .navbar a {
-      font-size: 14px;
+      font-size: 10px;
     }
   }
+   /* Extra Small Mobile (less than 320px) */
   @media only screen and (max-width: 319px) {
     header {
-        flex-direction: column;
-        align-items: center;
-        height: auto;
-        padding: 20px;
+      flex-direction: row;
+      align-items:baseline;
+      height: auto;
     }
     
     #one {
-      font-size: 14px;
+      font-size: 10px;
+      margin-left: 0px;
     }
     
     .navbar li {
@@ -187,10 +193,12 @@ header {
     
     #line {
       font-size: 22px;
+      margin-left: 10px;
     }
     
     #h2i {
       font-size: 20px;
+      margin-left: 10px;
     }
     
     #paraid {
@@ -214,10 +222,12 @@ header {
     
     #line {
       font-size: 20px;
+      margin-left: 10px;
     }
     
     #h2i {
       font-size: 18px;
+      margin-left: 10px;
     }
     
     #paraid {
@@ -238,6 +248,7 @@ header {
     #three {
       padding: 15px;
       height:1800px;
+      
     }
     
     #line {
@@ -271,14 +282,17 @@ header {
     }
     #para{
         font-size: 15px;
+        
     }
     
     #line {
       font-size: 16px;
+      margin-left: 10px;
     }
     
     #h2i {
       font-size: 14px;
+      margin-left: 10px;
     }
     
     #paraid {
