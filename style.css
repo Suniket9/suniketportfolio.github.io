@@ -91,7 +91,7 @@ header {
     text-decoration: none;
     color:black;
 }
-/*For Tablet*/
+/*For Tablet (Header)*/
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
     header {
         flex-direction: column;
@@ -109,7 +109,7 @@ header {
       margin-right: 15px;
     }
   }
-  /* Mobile (480px - 767px) */
+  /* Mobile (Header)(480px - 767px) */
   @media only screen and (max-width: 767px) and (min-width: 480px) {
     header {
       flex-direction: column;
@@ -138,7 +138,7 @@ header {
       font-size: 16px;
     }
   }
-   /* Small Mobile (320px - 479px) */
+   /* Small Mobile (Header)(320px - 479px) */
   @media only screen and (max-width: 479px) and (min-width: 320px) {
     header {
         flex-direction: row;
@@ -161,7 +161,7 @@ header {
       font-size: 10px;
     }
   }
-   /* Extra Small Mobile (less than 320px) */
+   /* Extra Small Mobile (Header)(less than 320px) */
   @media only screen and (max-width: 319px) {
     header {
       flex-direction: row;
@@ -183,7 +183,7 @@ header {
     }
   }
  
-  /* Tablet (768px - 991px) */
+  /* Tablet (Main)(768px - 991px) */
   
   @media only screen and (max-width: 991px) and (min-width: 768px) {
     #three {
@@ -212,7 +212,7 @@ header {
    
   }
   
-  /* Mobile (480px - 767px) */
+  /* Mobile (Main)(480px - 767px) */
   
   @media only screen and (max-width: 767px) and (min-width: 480px) {
     #three {
@@ -242,7 +242,7 @@ header {
     }
   }
   
-  /* Small Mobile (320px - 479px) */
+  /* Small Mobile (Main)(320px - 479px) */
   
   @media only screen and (max-width: 479px) and (min-width: 320px) {
     #three {
@@ -273,7 +273,7 @@ header {
     }
   }
   
-  /* Extra Small Mobile (less than 320px) */
+  /* Extra Small Mobile (Main)(less than 320px) */
   
   @media only screen and (max-width: 319px) {
     #three {
@@ -303,7 +303,7 @@ header {
       width: 100%;
     }
   }
-  /* Tablet (768px - 991px) */
+  /* Tablet (Footer)(768px - 991px) */
 
 @media only screen and (max-width: 991px) and (min-width: 768px) {
     #footercontainer {
@@ -317,7 +317,7 @@ header {
     }
   }
   
-  /* Mobile (480px - 767px) */
+  /* Mobile (Footer)(480px - 767px) */
   
   @media only screen and (max-width: 767px) and (min-width: 480px) {
     #footercontainer {
@@ -336,7 +336,7 @@ header {
     }
   }
   
-  /* Small Mobile (320px - 479px) */
+  /* Small Mobile (Footer)(320px - 479px) */
   
   @media only screen and (max-width: 479px) and (min-width: 320px) {
     #footercontainer {
@@ -355,7 +355,7 @@ header {
     }
   }
   
-  /* Extra Small Mobile (less than 320px) */
+  /* Extra Small Mobile (Footer)(less than 320px) */
   
   @media only screen and (max-width: 319px) {
     #footercontainer {
