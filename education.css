@@ -20,7 +20,7 @@ header {
     
 }
 .navbar{
-    min-width: 500px;
+    width: 500px;
     display:flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -76,3 +76,240 @@ td{
     text-decoration: none;
     color:black;
 }
+/*For Tablet (Header)*/
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+    header {
+        flex-direction: row;
+        align-items:flex-start;
+        height: auto;
+       
+    }
+    
+    #one {
+      font-size: 10px;
+      margin-left: 10px;
+      margin-top: 30px;
+      
+    }
+    
+    .navbar li {
+      margin-right: 0px;
+      
+    }
+    .navbar{
+       
+        font-size:10px ;
+        margin-top: 10px;
+        
+        
+    }
+  }
+  /* Tablet screens (1024px to 768px) */
+@media (max-width: 1024px) and (min-width: 768px) {
+    th, td {
+        font-size: 0.9em;
+        padding: 8px;
+    }
+    table {
+        font-size: 0.9em;
+    }
+}
+ /* Tablet (Footer)(768px - 1024px) */
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+    #footercontainer {
+      height: auto;
+      flex-direction: column;
+      align-content: space-evenly;
+      font-size: 13px;
+      
+    }
+    
+    
+    #contact, #email, #linkdin, #github {
+      margin: 5px 5px;
+    }
+}
+/* Mobile (Header)(480px - 767px) */
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+    header {
+      flex-direction: row;
+      align-items: center;
+      
+      
+    }
+    
+    #one {
+      font-size: 10px;
+      margin-left: 10px;
+      text-align: center;
+    }
+    
+    .navbar {
+      flex-direction: row;
+      align-items: center;
+      width: 400px;
+    }
+    
+    .navbar li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+    
+    .navbar a {
+      font-size: 10px;
+    }
+  }
+  /* Small mobile screens (767px to 480px) */
+@media (max-width: 767px) and (min-width: 480px) {
+    table, th, td {
+        font-size: 0.85em;
+        margin-left: 40px;
+    }
+    #one {
+        font-size: 1.5em;
+    }
+}
+/* Mobile (Footer)(480px - 767px) */
+  
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+    #footercontainer {
+     
+      flex-direction: column;
+      padding: 15px;
+      height: 300px;
+      font-size: 13px;
+    }
+    
+    #contact, #email, #linkdin, #github {
+      margin: 5px 0;
+      font-size: 14px;
+    }
+    
+    #git {
+      font-size: 14px;
+    }
+  }
+   /* Small Mobile (Header)(320px - 479px) */
+   @media only screen and (max-width: 479px) and (min-width: 320px) {
+    header {
+      flex-direction: row;
+      align-items: center;
+       
+      
+    }
+    
+    #one {
+      font-size: 5px;
+      margin-left: 0px;
+      margin-top: 30px;
+      
+    }
+    
+    .navbar {
+      flex-direction: row;
+      align-items: center;
+     
+    }
+    
+    .navbar li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+    
+    .navbar a {
+      font-size: 8px;
+    }
+  }
+  /* Extra small mobile screens (479px to 320px) */
+  @media (max-width: 479px) and (min-width: 320px) {
+    table, th, td {
+        font-size: 10px;
+        margin-left: 0px;
+        width: auto;
+        
+    }
+    #one1 {
+        
+        font-size: 15px;
+    }
+}
+ /* Small Mobile (Footer)(320px - 479px) */
+  
+ @media only screen and (max-width: 479px) and (min-width: 320px) {
+    #footercontainer {
+      height: auto;
+      flex-direction: column;
+      padding: 5px;
+      font-size: 13px;
+     
+    }
+    
+    #contact, #email, #linkdin, #github {
+      margin: 5px 0;
+      font-size: 14px;
+    }
+    
+    #git {
+      font-size: 14px;
+    }
+  }
+ /* Extra Small Mobile (Header)(less than 320px) */
+ @media only screen and (max-width: 319px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+   height: auto;
+    
+  }
+  
+  #one {
+    font-size: 10px;
+    margin-left: 10px;
+    text-align: center;
+  }
+  
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  .navbar li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  
+  .navbar a {
+    font-size: 10px;
+  }
+}
+@media (max-width: 320px)  {
+  table, th, td {
+      font-size: 0.85em;
+      margin-left: 40px;
+  }
+  #one {
+      font-size: 1.5em;
+  }
+}
+  /* Extra Small Mobile (Footer)(less than 320px) */
+  
+  @media only screen and (max-width: 319px) {
+    #footercontainer {
+
+      flex-direction: column;
+      padding: 15px;
+      height: 300px;
+      font-size: 13px;
+    }
+    
+    #contact, #email, #linkdin, #github {
+      margin: 5px 0;
+      font-size: 14px;
+    }
+    
+    #git {
+      font-size: 14px;
+    }
+  }
+  

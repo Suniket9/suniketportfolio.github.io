@@ -13,7 +13,7 @@ header {
     
 }
 .navbar{
-    min-width: 500px;
+    width: 500px;
     display:flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -77,3 +77,289 @@ header {
     text-decoration: none;
     color:black;
 }
+/*For Tablet (Header)*/
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+    header {
+        flex-direction: row;
+        align-items:flex-start;
+        height: auto;
+       
+    }
+    
+    #one {
+      font-size: 10px;
+      margin-left: 10px;
+      
+    }
+    
+    .navbar li {
+      margin-right: 0px;
+      margin-bottom: 20px;
+    }
+    .navbar{
+       
+        font-size:10px ;
+        margin-top: 30px;
+        
+        
+    }
+  }
+  /* Mobile (Header)(480px - 767px) */
+  @media only screen and (max-width: 767px) and (min-width: 480px) {
+    header {
+      flex-direction: row;
+      align-items: center;
+      
+      
+    }
+    
+    #one {
+      font-size: 10px;
+      margin-left: 10px;
+      text-align: center;
+    }
+    
+    .navbar {
+      flex-direction: row;
+      align-items: center;
+      width: 400px;
+    }
+    
+    .navbar li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+    
+    .navbar a {
+      font-size: 15px;
+    }
+  }
+   /* Small Mobile (Header)(320px - 479px) */
+  @media only screen and (max-width: 479px) and (min-width: 320px) {
+    header {
+      flex-direction: row;
+      align-items: center;
+       
+      
+    }
+    
+    #one {
+      font-size: 10px;
+      margin-left: 10px;
+      text-align: center;
+    }
+    
+    .navbar {
+      flex-direction: row;
+      align-items: center;
+      width: 450px;
+    }
+    
+    .navbar li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+    
+    .navbar a {
+      font-size: 10px;
+    }
+  }
+   /* Extra Small Mobile (Header)(less than 320px) */
+  @media only screen and (max-width: 319px) {
+    header {
+      flex-direction: column;
+      align-items: center;
+     height: auto;
+      
+    }
+    
+    #one {
+      font-size: 10px;
+      margin-left: 10px;
+      text-align: center;
+    }
+    
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+      
+    }
+    
+    .navbar li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+    
+    .navbar a {
+      font-size: 10px;
+    }
+  }
+  /* Tablet screens (1024px to 768px) */
+@media (max-width: 1024px) and (min-width: 768px) {
+    #para {
+        width: 80%;
+        margin-left: 20px;
+        font-size: 13px;
+    }
+    #photo {
+        width: 400px;
+        height: 300px;
+        
+    }
+    #main{
+        font-size: 15px;
+    }
+}
+
+/* Small mobile screens (767px to 480px) */
+@media (max-width: 767px) and (min-width: 480px) {
+    #threemain {
+        flex-direction: row;
+        align-items: center;
+    }
+    #para {
+       
+        margin-left: 20px;
+        font-size: 13px;
+    }
+    #photo {
+        width: 350px;
+        height: 250px;
+        margin-top: 20px;
+    }
+    #three{
+       
+        width: auto;
+    }
+    #main{
+        font-size: 15px;
+    }
+}
+
+/* Extra small mobile screens (479px to 320px) */
+@media (max-width: 479px) and (min-width: 320px) {
+    #threemain {
+        flex-direction: row;
+        align-items: center;
+    }
+    #para {
+        width: 100%;
+        margin-left: 20px;
+        text-align: left;
+        font-size: 12px;
+        height: 100%;
+    }
+    #photo {
+        width: 300px;
+        height: 220px;
+        margin-top: 20px;
+    }
+    #main{
+        font-size: 10px;
+    }
+    #three{
+        height: auto;
+    }
+}
+
+/* Tiny screens (319px and below) */
+@media (max-width: 319px) {
+    #threemain {
+        flex-direction: row;
+        align-items: center;
+    }
+    #para {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+        font-size: 13px;
+    }
+    #photo {
+        width: 250px;
+        height: 180px;
+        margin-top: 15px;
+    }
+    #three{
+      height: auto;
+    }
+}
+  /* Tablet (Footer)(768px - 2024px) */
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+    #footercontainer {
+      height: auto;
+      flex-direction: column;
+      align-content: space-evenly;
+      font-size: 13px;
+      
+    }
+    
+    
+    #contact, #email, #linkdin, #github {
+      margin: 5px 5px;
+    }
+}
+
+  /* Mobile (Footer)(480px - 767px) */
+  
+  @media only screen and (max-width: 767px) and (min-width: 480px) {
+    #footercontainer {
+     
+      flex-direction: column;
+      padding: 15px;
+      height: 300px;
+      font-size: 13px;
+    }
+    
+    #contact, #email, #linkdin, #github {
+      margin: 5px 0;
+      font-size: 14px;
+    }
+    
+    #git {
+      font-size: 14px;
+    }
+  }
+  
+  /* Small Mobile (Footer)(320px - 479px) */
+  
+  @media only screen and (max-width: 479px) and (min-width: 320px) {
+    #footercontainer {
+      height: auto;
+      flex-direction: column;
+      padding: 5px;
+      font-size: 13px;
+     
+    }
+    
+    #contact, #email, #linkdin, #github {
+      margin: 5px 0;
+      font-size: 14px;
+    }
+    
+    #git {
+      font-size: 14px;
+    }
+  }
+  
+  /* Extra Small Mobile (Footer)(less than 320px) */
+  
+  @media only screen and (max-width: 319px) {
+    #footercontainer {
+
+      flex-direction: column;
+      padding: 15px;
+      height: 300px;
+      font-size: 13px;
+    }
+    
+    #contact, #email, #linkdin, #github {
+      margin: 5px 0;
+      font-size: 14px;
+    }
+    
+    #git {
+      font-size: 14px;
+    }
+  }
+  
