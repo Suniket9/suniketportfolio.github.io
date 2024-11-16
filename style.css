@@ -112,20 +112,20 @@ header {
   /* Mobile (Header)(480px - 767px) */
   @media only screen and (max-width: 767px) and (min-width: 480px) {
     header {
-      flex-direction: column;
+      flex-direction: row;
       align-items: center;
       height: auto;
       padding: 20px;
     }
     
     #one {
-      font-size: 18px;
+      font-size: 10px;
       margin-left: 0;
       text-align: center;
     }
     
     .navbar {
-      flex-direction: column;
+      flex-direction: row;
       align-items: center;
     }
     
@@ -135,7 +135,7 @@ header {
     }
     
     .navbar a {
-      font-size: 16px;
+      font-size: 10px;
     }
   }
    /* Small Mobile (Header)(320px - 479px) */
@@ -188,16 +188,16 @@ header {
   @media only screen and (max-width: 991px) and (min-width: 768px) {
     #three {
       padding: 30px;
-      height:850px;
+      height:auto;
     }
     
     #line {
-      font-size: 22px;
+      font-size: 15px;
       margin-left: 10px;
     }
     
     #h2i {
-      font-size: 20px;
+      font-size: 15px;
       margin-left: 10px;
     }
     
@@ -208,6 +208,9 @@ header {
     
     #fd, #photo {
       width: 85%;
+    }
+    #para{
+      font-size: 15px;
     }
    
   }
@@ -247,18 +250,18 @@ header {
   @media only screen and (max-width: 479px) and (min-width: 320px) {
     #three {
       padding: 15px;
-      height:1800px;
+      height:1000px;
       
     }
     
     #line {
       margin-left: 10px;
-      font-size: 15px;
+      font-size: 10px;
     }
     
     #h2i {
     margin-left: 10px;
-    font-size: 15px;
+    font-size: 10px;
     }
     
     #paraid {
@@ -267,9 +270,10 @@ header {
     
     #fd, #photo {
       width: 95%;
+
     }
     #para{
-        font-size: 15px;
+        font-size: 10px;
     }
   }
   
