@@ -608,6 +608,10 @@ header {
     
     #contact, #email, #linkdin, #github {
       margin: 5px 5px;
+      font-size: 15px;
+    }
+    #copy{
+      font-size: 10px;
     }
 }
 
@@ -623,11 +627,14 @@ header {
     
     #contact, #email, #linkdin, #github {
       margin: 5px 0;
-      font-size: 14px;
+      font-size: 10px;
     }
     
     #git {
-      font-size: 14px;
+      font-size: 10px;
+    }
+    #copy{
+      font-size: 10px;
     }
   }
   
@@ -643,11 +650,14 @@ header {
     
     #contact, #email, #linkdin, #github {
       margin: 5px 0;
-      font-size: 14px;
+      font-size: 10px;
     }
     
     #git {
-      font-size: 14px;
+      font-size: 10px;
+    }
+    #copy{
+      font-size: 10px;
     }
   }
   
@@ -663,11 +673,14 @@ header {
     
     #contact, #email, #linkdin, #github {
       margin: 5px 0;
-      font-size: 14px;
+      font-size: 10px;
     }
     
     #git {
-      font-size: 14px;
+      font-size: 10px;
+    }
+    #copy{
+      font-size: 10px;
     }
   }
   

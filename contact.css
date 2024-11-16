@@ -113,7 +113,7 @@ header {
       height: auto;
       flex-direction: column;
       align-content: space-evenly;
-      font-size: 13px;
+      font-size: 15px;
       
     }
     
@@ -170,16 +170,19 @@ header {
       flex-direction: column;
       padding: 15px;
       height: 300px;
-      font-size: 13px;
+      font-size: 10px;
     }
     
     #contact, #email, #linkdin, #github {
       margin: 5px 0;
-      font-size: 14px;
+      font-size: 10px;
     }
     
     #git {
-      font-size: 14px;
+      font-size: 10px;
+    }
+    #copy{
+      font-size: 10px;
     }
   }
   /* Small Mobile (Header)(320px - 479px) */
@@ -230,17 +233,20 @@ header {
       height: auto;
       flex-direction: column;
       padding: 5px;
-      font-size: 13px;
+      font-size: 10px;
      
     }
     
     #contact, #email, #linkdin, #github {
       margin: 5px 0;
-      font-size: 14px;
+      font-size: 10px;
     }
     
     #git {
-      font-size: 14px;
+      font-size: 10px;
+    }
+    #copy{
+      font-size: 10px;
     }
   }
    /* Extra Small Mobile (Header)(less than 320px) */
@@ -294,16 +300,16 @@ header {
       flex-direction: column;
       padding: 15px;
       height: 300px;
-      font-size: 13px;
+      font-size: 10px;
     }
     
     #contact, #email, #linkdin, #github {
       margin: 5px 0;
-      font-size: 14px;
+      font-size: 10px;
     }
     
     #git {
-      font-size: 14px;
+      font-size: 10px;
     }
   }
   

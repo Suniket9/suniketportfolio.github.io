@@ -127,6 +127,10 @@ td{
     
     #contact, #email, #linkdin, #github {
       margin: 5px 5px;
+      font-size: 15px;
+    }
+    #copy{
+      font-size: 15px;
     }
 }
 /* Mobile (Header)(480px - 767px) */
@@ -182,11 +186,14 @@ td{
     
     #contact, #email, #linkdin, #github {
       margin: 5px 0;
-      font-size: 14px;
+      font-size: 10px;
     }
     
     #git {
-      font-size: 14px;
+      font-size: 10px;
+    }
+    #copy{
+      font-size: 10px;
     }
   }
    /* Small Mobile (Header)(320px - 479px) */
@@ -246,11 +253,14 @@ td{
     
     #contact, #email, #linkdin, #github {
       margin: 5px 0;
-      font-size: 14px;
+      font-size: 10px;
     }
     
     #git {
-      font-size: 14px;
+      font-size: 10px;
+    }
+    #copy{
+      font-size: 10px;
     }
   }
  /* Extra Small Mobile (Header)(less than 320px) */
@@ -305,11 +315,14 @@ td{
     
     #contact, #email, #linkdin, #github {
       margin: 5px 0;
-      font-size: 14px;
+      font-size: 10px;
     }
     
     #git {
-      font-size: 14px;
+      font-size: 10px;
+    }
+    #copy{
+      font-size: 10px;
     }
   }
   

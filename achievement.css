@@ -297,6 +297,7 @@ header {
     
     #contact, #email, #linkdin, #github {
       margin: 5px 5px;
+      font-size: 15px;
     }
 }
 
@@ -313,11 +314,14 @@ header {
     
     #contact, #email, #linkdin, #github {
       margin: 5px 0;
-      font-size: 14px;
+      font-size: 10px;
     }
     
     #git {
-      font-size: 14px;
+      font-size: 10px;
+    }
+    #copy{
+      font-size: 10px;
     }
   }
   
@@ -328,17 +332,20 @@ header {
       height: auto;
       flex-direction: column;
       padding: 5px;
-      font-size: 13px;
+      font-size: 10px;
      
     }
     
     #contact, #email, #linkdin, #github {
       margin: 5px 0;
-      font-size: 14px;
+      font-size: 10px;
     }
     
     #git {
-      font-size: 14px;
+      font-size: 10px;
+    }
+    #copy{
+      font-size: 10px;
     }
   }
   
@@ -355,11 +362,14 @@ header {
     
     #contact, #email, #linkdin, #github {
       margin: 5px 0;
-      font-size: 14px;
+      font-size: 10px;
     }
     
     #git {
-      font-size: 14px;
+      font-size: 10px;
+    }
+    #copy{
+      font-size: 10px;
     }
   }
   
