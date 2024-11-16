@@ -189,7 +189,7 @@ header {
       flex-direction: row;
       align-items: center;
       
-      
+      width: auto;
     }
     
     #one {
@@ -201,7 +201,8 @@ header {
     .navbar {
       flex-direction: row;
       align-items: center;
-      width: auto;
+      width: 400px;
+
     }
     
     .navbar li {
@@ -210,7 +211,7 @@ header {
     }
     
     .navbar a {
-      font-size: 15px;
+      font-size: 10px;
     }
   }
    /* Extra Small Mobile (Header)(less than 320px) */
@@ -414,11 +415,11 @@ header {
     width: auto;
 }
 #h1l{
-  margin-left: 200px;
+  margin-left: 150px;
 }
 #ecgmain{
     margin-left: 10px;
-    height: 400px;
+    height: 500px;
     flex-direction: row;
     align-items: center;
     width: auto;
@@ -433,7 +434,7 @@ header {
 
 #Homemain{
   margin-left: 10px;
-  height: 400px;
+  height: 500px;
   flex-direction: row;
   align-items: center;
   width: auto;
@@ -472,7 +473,7 @@ header {
 }
 .bu1{
     width: 100%;
-    height: 380px;
+    height: 483px;
     padding: 10px 0;
     
     border-left: 2px solid black;
@@ -484,7 +485,7 @@ header {
     
 }
 #bu2{
-    height: 380px;
+    height: 483px;
     padding: 10px 0; 
     border-left: 2px solid black;
 }
@@ -637,7 +638,7 @@ header {
       width: auto;
       flex-direction: column;
       padding: 15px;
-      height: 300px;
+      height: auto;
     }
     
     #contact, #email, #linkdin, #github {
