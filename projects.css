@@ -42,6 +42,7 @@ header {
 #ECG{
     height:250px;
     width: 600px;
+    text-align: justify;
 
 }
 .bu1{
@@ -64,6 +65,7 @@ header {
 #home{
    height:250px;
    width:400px;
+   text-align: justify;
 }
 #bu2{
     height:330px;
@@ -80,6 +82,9 @@ header {
     border:2px solid black;
     height:250px;
     width:650px;
+}
+#myntra{
+  text-align: justify;
 }
 #bu3{
     height:250px;

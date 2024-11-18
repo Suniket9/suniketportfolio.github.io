@@ -54,7 +54,7 @@ header {
     
     height:100px;
     width:500px;
-    
+    text-align: justify;
 }
 #photo{
     height: 350px;
@@ -195,6 +195,7 @@ header {
     #line {
       font-size: 15px;
       margin-left: 10px;
+      text-align: justify;
     }
     
     #h2i {
@@ -207,11 +208,16 @@ header {
     
     }
     
-    #fd, #photo {
+    #fd {
       width: 85%;
+    }
+    #photo{
+      align-items: flex-end;
+      margin-left: 20px;
     }
     #para{
       font-size: 15px;
+      text-align: justify;
     }
    
   }
@@ -238,8 +244,11 @@ header {
       padding: 10px;
     }
     
-    #fd, #photo {
+    #fd {
       width: 90%;
+    }
+    #photo{
+      margin-left: 20px;
     }
     #para{
         font-size: 15px;
@@ -269,9 +278,13 @@ header {
       padding: 5px;
     }
     
-    #fd, #photo {
+    #fd{
       width: 95%;
 
+    }
+    #photo{
+      width: 95%;
+      margin-left: 20px;
     }
     #para{
         font-size: 10px;
@@ -304,9 +317,13 @@ header {
       padding: 5px;
     }
     
-    #fd, #photo {
+    #fd{
       width: 100%;
     }
+  }
+  #photo{
+    width: 95%;
+    margin-left: 20px;
   }
   /* Tablet (Footer)(768px - 991px) */
 

@@ -39,6 +39,7 @@ header {
     margin-top: 20px;
     margin-left: 50px;
     width:600px;
+    text-align: justify;
 }
 #photo{
     height: 350px;
@@ -204,6 +205,7 @@ header {
     #photo {
         width: 400px;
         height: 300px;
+        margin-left: 20px;
         
     }
     #main{
@@ -226,6 +228,7 @@ header {
         width: 350px;
         height: 250px;
         margin-top: 20px;
+        margin-left: 20px;
     }
     #three{
        
@@ -245,7 +248,7 @@ header {
     #para {
         width: 100%;
         margin-left: 20px;
-        text-align: left;
+       
         font-size: 12px;
         height: 100%;
     }
@@ -253,6 +256,7 @@ header {
         width: 300px;
         height: 220px;
         margin-top: 20px;
+        margin-left: 20px;
     }
     #main{
         font-size: 10px;
@@ -278,6 +282,7 @@ header {
         width: 250px;
         height: 180px;
         margin-top: 15px;
+        margin-left: 20px;
     }
     #three{
       height: auto;
