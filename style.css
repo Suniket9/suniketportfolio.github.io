@@ -54,7 +54,7 @@ header {
     
     height:450px;
     width:700px;
-    
+   
   
 }
 #para{
@@ -62,10 +62,11 @@ header {
 }
 #photo{
     height: 450px;
-    width:  300px;
-
-    background-image: url("graduation.jpeg");
+    width: 450px;
+   
+    background-image: url("Suniket!1.jpeg");
     background-size:cover;
+    background-position: cover;
     border-radius: 20%;
     border: 2px solid black;
 }
@@ -216,7 +217,7 @@ header {
       width: 85%;
     }
     #photo{
-      align-items: flex-end;
+      align-items:flex-start;
       margin-left: 20px;
     }
     #para{
@@ -253,9 +254,10 @@ header {
     }
     #photo{
       margin-left: 20px;
+
     }
     #para{
-        font-size: 15px;
+        font-size: 14px;
     }
   }
   
@@ -264,7 +266,7 @@ header {
   @media only screen and (max-width: 479px) and (min-width: 320px) {
     #three {
       padding: 15px;
-      height:1000px;
+      height:auto;
       
     }
     
@@ -283,12 +285,14 @@ header {
     }
     
     #fd{
-      width: 95%;
+     height: auto;
+     
 
     }
     #photo{
-      width: 95%;
+     
       margin-left: 20px;
+      background-position: center;
     }
     #para{
         font-size: 10px;
@@ -300,10 +304,10 @@ header {
   @media only screen and (max-width: 319px) {
     #three {
       padding: 10px;
-      height:3000px;
+      height:auto;
     }
     #para{
-        font-size: 15px;
+        font-size: 10px;
         
     }
     
@@ -319,14 +323,15 @@ header {
     
     #paraid {
       padding: 5px;
+      height: auto;
     }
     
     #fd{
-      width: 100%;
+    height: auto;
     }
   }
   #photo{
-    width: 95%;
+    background-position: center;
     margin-left: 20px;
   }
   /* Tablet (Footer)(768px - 991px) */

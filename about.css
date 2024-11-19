@@ -31,17 +31,20 @@ header {
 #three{
     
     background-color:#e7e6eb;
-    height:1027px;
+    height:1100px;
     margin-bottom: 10px;
     
 }
+#resume{
+  text-align: center;
+}
 #line {
     margin-top: 20px;
-    margin-left:132px;
+    text-align: center;
 }
 #h2i {
     margin-top: 0px;
-    margin-left: 132px;
+   text-align: center;
 }
 #apara{
     
@@ -169,23 +172,28 @@ header {
    /* Extra Small Mobile (Header)(less than 320px) */
   @media only screen and (max-width: 319px) {
     header {
-      flex-direction: column;
-      align-items:center;
+      flex-direction: row;
+      align-items:flex-start;
       height: auto;
     }
     
     #one {
-      font-size: 10px;
+      font-size: 8px;
       margin-left: 0px;
     }
     
     .navbar li {
-      margin-bottom: 5px;
+      margin-bottom: 0px;
     }
     
     .navbar a {
-      font-size: 12px;
+      font-size: 10px;
+      margin-top: 17px;
     }
+   #navbar{
+    display: flex;
+    flex-direction: row;
+   }
   }
  /* Media Queries for Responsive Design */
 
