@@ -52,16 +52,20 @@ header {
 
 #fd{
     
-    height:100px;
-    width:500px;
-    text-align: justify;
+    height:450px;
+    width:700px;
+    
+  
+}
+#para{
+  text-align: justify;
 }
 #photo{
-    height: 350px;
-    width:  400px;
+    height: 450px;
+    width:  300px;
 
     background-image: url("graduation.jpeg");
-    background-size: cover;
+    background-size:cover;
     border-radius: 20%;
     border: 2px solid black;
 }
@@ -216,7 +220,7 @@ header {
       margin-left: 20px;
     }
     #para{
-      font-size: 15px;
+      font-size: 13px;
       text-align: justify;
     }
    
