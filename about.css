@@ -195,6 +195,10 @@ header {
     flex-direction: row;
    }
   }
+  #link{
+    text-decoration: none;
+    color: black;
+  }
  /* Media Queries for Responsive Design */
 
 /* Tablet View (max-width: 768px) */
