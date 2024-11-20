@@ -160,7 +160,7 @@ header {
     #one {
       font-size: 10px;
       font-size: 5px;
-      margin-left: 0px;
+      margin-left: 10px;
     }
     
     .navbar li {
@@ -286,10 +286,12 @@ header {
     
     #paraid {
       padding: 5px;
+      height: auto;
     }
     
     #fd{
      height: auto;
+     width: 180px;
      
 
     }

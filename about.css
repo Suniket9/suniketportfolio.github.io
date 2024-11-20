@@ -153,21 +153,19 @@ header {
     
     #one {
       font-size: 10px;
-      
       margin-left: 10px;
     }
-    
+        
     .navbar li {
       margin-bottom: 5px;
     }
-    
+
     .navbar a {
       font-size: 10px;
     }
     .navbar{
         width: 320px;
     }
-    
   }
    /* Extra Small Mobile (Header)(less than 320px) */
   @media only screen and (max-width: 319px) {

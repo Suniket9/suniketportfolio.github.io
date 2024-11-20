@@ -202,7 +202,7 @@ header {
     }
     
     #one {
-      font-size: 15px;
+      font-size: 10px;
       margin-left: 10px;
       text-align: center;
     }
@@ -428,6 +428,7 @@ header {
 }
 #ecgmain{
     margin-left: 10px;
+    margin-right: 10px;
     height: 500px;
     flex-direction: row;
     align-items: center;
@@ -443,6 +444,7 @@ header {
 
 #Homemain{
   margin-left: 10px;
+  margin-right: 10px;
   height: 500px;
   flex-direction: row;
   align-items: center;
@@ -457,6 +459,7 @@ header {
 }
 #myntramain{
   margin-left: 10px;
+  margin-right: 10px;
     width: auto;
     flex-direction: row;
     align-items: flex-start;
@@ -467,6 +470,7 @@ header {
 }
 #portfoliomain{
   margin-left: 10px;
+  margin-right: 10px;
     width: auto;
     flex-direction: row;
     align-items: flex-start;
